@@ -23,8 +23,8 @@ export default function BingoCard() {
       grid.push(numbers.slice(i * 5, i * 5 + 5));
     }
     setBoard(grid);
-    setSelectedCells([]);
-    setBingoCount(0);
+    setSelectedCells([]); 
+    setBingoCount(0); 
   };
 
   const shuffleArray = (array) => {
